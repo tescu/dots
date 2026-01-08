@@ -85,6 +85,8 @@ alias dir='ls -CF --color=never'
 alias l='ls -CF'
 alias c='clear'
 alias e='esrc'
+alias v=$EDITOR
+alias scrdown='brightnessctl s 1'
 
 # Path
 export PATH="$PATH:$HOME/.local/bin"

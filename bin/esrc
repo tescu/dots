@@ -4,7 +4,7 @@
 [ -z "$1" ] && exit 1
 [ -z "$EDITOR" ] && EDITOR='vim'
 
-program=`printf "%s" "$(whereis $1)" | awk '{ printf($2) }'`
+program="$(command -v $1)"
 
 # Also make sure it is text/x-* (executable text file)
 case "$(file -Lb --mime-type $program)" in

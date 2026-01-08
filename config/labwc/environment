@@ -1,9 +1,8 @@
 ## ~/.config/labwc/environment file
 
 ## For further details, see xkeyboard-config(7)
-XKB_DEFAULT_LAYOUT=ro,gr
-XKB_DEFAULT_OPTIONS=grp:alt_shift_toggle
-# XKB_DEFAULT_OPTIONS=grp:shift_caps_toggle
+XKB_DEFAULT_LAYOUT=ro,ru(phonetic)
+XKB_DEFAULT_OPTIONS=grp:win_space_toggle
 
 ## Firefox (>= v121) enables Wayland by default, but we include this note here
 ## for those on non-rolling distributions.
@@ -30,7 +29,8 @@ XCURSOR_SIZE=24
 XDG_CURRENT_DESKTOP=wlroots
 
 ## Other exports
-export TERMINAL="foot"
-export BROWSER="firefox"
-export FILE_MANAGER="lf"
+TERMINAL=foot
+EDITOR=vim
+BROWSER=firefox
+FILE_MANAGER=lf
 

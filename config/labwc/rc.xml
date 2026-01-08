@@ -64,6 +64,8 @@
 	    <action name="Execute" command="~/.local/bin/capt"/></keybind>
     <keybind key="W-o">
 	    <action name="Execute" command="foot ~/.local/bin/wpmenu"/></keybind>
+    <keybind key="W-S-o">
+	    <action name="Execute" command="foot ~/.local/bin/wpdmenu"/></keybind>
     <keybind key="W-s">
 	    <action name="Execute" command="~/.local/bin/mplc sk"/></keybind>
     <keybind key="W-S-s">
@@ -77,15 +79,13 @@
 	    <action name="SnapToRegion" region="right"/></keybind>
     <keybind key="W-j">
 	    <action name="SnapToRegion" region="bottom"/></keybind>
-    <keybind key="W-Space">
-	    <action name="SnapToRegion" region="center"/></keybind>
-    <keybind key="A-k">
+    <keybind key="W-S-k">
 	    <action name="MoveToEdge" direction="up"/></keybind>
-    <keybind key="A-h">
+    <keybind key="W-S-h">
 	    <action name="MoveToEdge" direction="left"/></keybind>
-    <keybind key="A-l">
+    <keybind key="W-S-l">
 	    <action name="MoveToEdge" direction="right"/></keybind>
-    <keybind key="A-j">
+    <keybind key="W-S-j">
 	    <action name="MoveToEdge" direction="down"/></keybind>
     <!-- Desktops -->
     <keybind key="W-1">
