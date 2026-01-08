@@ -63,9 +63,9 @@
     <keybind key="W-S-p">
 	    <action name="Execute" command="~/.local/bin/capt"/></keybind>
     <keybind key="W-o">
-	    <action name="Execute" command="foot ~/.local/bin/wpmenu"/></keybind>
+	    <action name="Execute" command="~/.local/bin/wpmenu"/></keybind>
     <keybind key="W-S-o">
-	    <action name="Execute" command="foot ~/.local/bin/wpdmenu"/></keybind>
+	    <action name="Execute" command="~/.local/bin/wpdmenu"/></keybind>
     <keybind key="W-s">
 	    <action name="Execute" command="~/.local/bin/mplc sk"/></keybind>
     <keybind key="W-S-s">
