@@ -4,8 +4,8 @@
 }
 
 window#waybar {
-    background-color: #f5f7ee;
-    color: #14100d;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 window#waybar.hidden {
@@ -48,7 +48,7 @@ button:hover {
 #custom-mplc,
 #tray {
     padding: 0 10px;
-    color: #14100d;
+    color: #ffffff;
 }
 
 #window { margin: 0 4px; }

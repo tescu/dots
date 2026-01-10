@@ -12,7 +12,7 @@
 	<cornerRadius>0</cornerRadius>
 	<dropShadows>yes</dropShadows>
 	<titlebar>
-		<layout>iconify,max:close</layout>
+		<layout>close,max,iconify:</layout>
 	</titlebar>
 </theme>
 <placement>
@@ -41,6 +41,8 @@
 	    <action name="ToggleDecorations"/></keybind>
     <keybind key="W-f">
 	    <action name="ToggleFullscreen"/></keybind>
+    <keybind key="W-S-f">
+	    <action name="ToggleMaximize"/></keybind>
     <keybind key="W-d">
 	    <action name="Execute" command="wofi --show drun" /></keybind>
     <keybind key="W-e">

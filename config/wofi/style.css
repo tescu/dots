@@ -1,29 +1,29 @@
 #window {
-	background-color: #f5f7ee;
-	color: #14100d;
-	border: 2px solid #918175;
+	background-color: #000000;
+	color: #ffffff;
+	border: 2px solid #000000;
 	border-radius: 0rem;
 	font-size: 1.4rem;
 }
 #input {
-	background-color: #f5f7ee;
+	background-color: #000000;
 	color: #918175;
-	border: 1px solid #918175;
+	border: 1px solid #ffffff;
 	border-radius: 0;
 }
 #input:focus, #input:focus-visible, #input:active {
-	border: 1px solid #918175;
+	border: 1px solid #ffffff;
 }
 #scroll {}
 #entry {
-	background-color: #f5f7ee;
-	color: #918175;
+	background-color: #000000;
+	color: #aaaaaa;
 }
 #entry:selected {
-	background-color: #f5f7ee;
-	color: #14100d;
+	background-color: #000000;
+	color: #ffffff;
 }
 #text:selected {
-	color: #14100d;
+	color: #ffffff;
 	font-weight: 700;
 }
