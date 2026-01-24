@@ -1,29 +1,29 @@
 #window {
-	background-color: #000000;
-	color: #ffffff;
-	border: 2px solid #000000;
+	background-color: #ffffff;
+	color: #000000;
+	border: 2px solid #ffffff;
 	border-radius: 0rem;
 	font-size: 1.4rem;
 }
 #input {
-	background-color: #000000;
+	background-color: #ffffff;
 	color: #918175;
-	border: 1px solid #ffffff;
+	border: 1px solid #000000;
 	border-radius: 0;
 }
 #input:focus, #input:focus-visible, #input:active {
-	border: 1px solid #ffffff;
+	border: 1px solid #000000;
 }
 #scroll {}
 #entry {
-	background-color: #000000;
+	background-color: #ffffff;
 	color: #aaaaaa;
 }
 #entry:selected {
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
 }
 #text:selected {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 }

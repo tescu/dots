@@ -10,17 +10,17 @@ window.titlebar.padding.height: 0
 
 # window border
 window.active.border.color:   #aaaaaa80
-window.inactive.border.color: #00000080
+window.inactive.border.color: #ffffff80
 
 # ToggleKeybinds status indicator
 window.active.indicator.toggled-keybind.color: #ff0000
 
 # window titlebar background
-window.active.title.bg.color:   #000000
-window.inactive.title.bg.color: #000000
+window.active.title.bg.color:   #ffffff
+window.inactive.title.bg.color: #ffffff
 
 # window titlebar text
-window.active.label.text.color:   #ffffff
+window.active.label.text.color:   #000000
 window.inactive.label.text.color: #aaaaaa
 window.label.text.justify: center
 
@@ -33,14 +33,14 @@ window.button.spacing: 2
 window.button.hover.bg.corner-radius: 0
 
 # window buttons
-window.active.button.unpressed.image.color:   #ffffff
+window.active.button.unpressed.image.color:   #000000
 window.inactive.button.unpressed.image.color: #aaaaaa
 
 # window drop-shadows
 window.active.shadow.size: 60
 window.inactive.shadow.size: 40
-window.active.shadow.color: #00000060
-window.inactive.shadow.color: #00000040
+window.active.shadow.color: #ffffff60
+window.inactive.shadow.color: #ffffff40
 
 # Note that "menu", "iconify", "max", "close" buttons colors can be defined
 # individually by inserting the type after the button node, for example:
@@ -54,25 +54,25 @@ menu.width.min: 20
 menu.width.max: 200
 menu.border.width: 0
 menu.border.color: #60b48a80
-menu.items.bg.color: #000000
-menu.items.text.color: #ffffff
+menu.items.bg.color: #ffffff
+menu.items.text.color: #000000
 menu.items.active.bg.color: #60b48a
-menu.items.active.text.color: #000000
+menu.items.active.text.color: #ffffff
 menu.items.padding.x: 7
 menu.items.padding.y: 4
 menu.separator.width: 1
 menu.separator.padding.width: 0
 menu.separator.padding.height: 3
 menu.separator.color: #aaaaaa80
-menu.title.bg.color: #000000
-menu.title.text.color: #ffffff
+menu.title.bg.color: #ffffff
+menu.title.text.color: #000000
 menu.title.text.justify: Left
 
 # on screen display (window-cycle dialog)
-osd.bg.color: #000000
-osd.border.color: #000000ff
+osd.bg.color: #ffffff
+osd.border.color: #ffffffff
 osd.border.width: 0
-osd.label.text.color: #ffffff
+osd.label.text.color: #000000
 osd.window-switcher.width: 600
 osd.window-switcher.padding: 4
 osd.window-switcher.item.padding.x: 10
@@ -100,5 +100,5 @@ snapping.overlay.region.bg.color: #8080b380
 snapping.overlay.edge.bg.color: #8080b380
 snapping.overlay.region.border.width: 1
 snapping.overlay.edge.border.width: 1
-snapping.overlay.region.border.color: #dddda6,#000000,#dddda6
-snapping.overlay.edge.border.color: #dddda6,#000000,#dddda6
+snapping.overlay.region.border.color: #dddda6,#ffffff,#dddda6
+snapping.overlay.edge.border.color: #dddda6,#ffffff,#dddda6

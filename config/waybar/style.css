@@ -4,8 +4,8 @@
 }
 
 window#waybar {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 window#waybar.hidden {
@@ -48,7 +48,7 @@ button:hover {
 #custom-mplc,
 #tray {
     padding: 0 10px;
-    color: #ffffff;
+    color: #000000;
 }
 
 #window { margin: 0 4px; }
@@ -72,7 +72,7 @@ button:hover {
 }
 
 label:focus {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 #network.disconnected {

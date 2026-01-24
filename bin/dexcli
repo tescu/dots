@@ -7,5 +7,11 @@ if [ -z "$def" ]; then
 	exit 1
 fi
 
-# I'm using sed and head to make the output a tiny bit more readable
-w3m -cols 80 -dump "https://www.dex.ro/$1" | sed '1,13d' | head -n -8 | less
+if [ -z "$2" ]; then
+	# I'm using sed and head to make the output a tiny bit more readable
+	w3m -cols 80 -dump "https://www.dex.ro/$1" | sed '1,13d' | head -n -8 | less
+else
+	# Use a second argument for sending it as a notification
+	word="$(w3m -cols 80 -dump "https://www.dex.ro/$1" | sed '1,13d' | head -n -8)"
+	notify-send 'Definiție' "$word"
+fi

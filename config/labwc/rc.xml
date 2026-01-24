@@ -56,6 +56,8 @@
 	    <action name="Execute" command="~/.local/bin/pickerm"/></keybind>
     <keybind key="W-S-w">
 	    <action name="Execute" command="~/.local/bin/pickerm lenny"/></keybind>
+    <keybind key="W-b">
+	    <action name="Execute" command="~/.local/bin/dexmenu"/></keybind>
     <keybind key="W-m">
 	    <action name="Execute" command="foot ~/.local/bin/mounter"/></keybind>
     <keybind key="W-S-m">
