@@ -12,7 +12,7 @@
 	<cornerRadius>0</cornerRadius>
 	<dropShadows>yes</dropShadows>
 	<titlebar>
-		<layout>close,max,iconify:</layout>
+		<layout>:iconify,max,close</layout>
 	</titlebar>
 </theme>
 <placement>

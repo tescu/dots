@@ -15,7 +15,7 @@ shopt -s histappend
 shopt -s checkwinsize
 shopt -s globstar
 # Vi-mode
-set -o vi
+#set -o vi
 
 # make less more friendly for non-text input files, see lesspipe(1)
 #[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
