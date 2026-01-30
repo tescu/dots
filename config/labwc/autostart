@@ -9,7 +9,7 @@ waybar --log-level off &
 fnott >/dev/null 2>&1 &
 
 # nihongo
-fcitx 5 &
+fcitx5 &
 
 # Lock screen after 5 minutes; turn off display after another 5 minutes.
 #swayidle -w \
