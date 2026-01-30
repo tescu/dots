@@ -7,7 +7,7 @@ err() { printf "%s\n" "$2"; exit $1; }
 
 if [ -d /tmp/mpl* ]; then
 	# Find temp dir
-	tmpd="$(find /tmp -type d -name 'mpl*')"
+	tmpd="$(find /tmp -maxdepth 1 -type d -name 'mpl*')"
 	# Get id
 	mplid="$(cat $tmpd/pid)"
 	# Get track
