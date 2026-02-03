@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# requires: jmtpfs, fuse
+
+[ -z "$1" ] && location='/tmp/tablet' || location="$1"
+
+if [ -d "$location" ]; then
+	read -rp 'unmount? (y/n) ' REPLY
+	case "$REPLY" in
+		[yY])
+		fusermount -u "$location" && rm -rv "$location"
+		;;
+		*)
+		printf '%s\n' 'Not unmounted.'
+		;;
+	esac
+
+else
+	mkdir -v "$location"
+	jmtpfs "$location" && printf '%s%s\n' 'Device mounted at ' "$location"
+fi
+
+
