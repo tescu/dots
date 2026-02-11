@@ -1,0 +1,2 @@
+#!/bin/sh
+killall fnott && setsid -f fnott && notify-send 'Notify' 'fnott repornit'

@@ -4,8 +4,8 @@
 }
 
 window#waybar {
-    background-color: #101010;
-    color: #d2c5bc;
+    background-color: #282828;
+    color: #ebdbb2;
 }
 
 window#waybar.hidden {
@@ -32,7 +32,7 @@ button {
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -3px #101010;
+    box-shadow: inset 0 -3px #282828;
 }
 
 #clock,
@@ -48,7 +48,7 @@ button:hover {
 #custom-mplc,
 #tray {
     padding: 0 10px;
-    color: #d2c5bc;
+    color: #ebdbb2;
 }
 
 #window { margin: 0 4px; }
@@ -72,7 +72,7 @@ button:hover {
 }
 
 label:focus {
-    background-color: #101010;
+    background-color: #282828;
 }
 
 #network.disconnected {
