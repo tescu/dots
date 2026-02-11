@@ -9,7 +9,7 @@ Configuration files and other utilities I have written for convenience.
 
 * main: labwc, swaybg, wofi, foot, waybar, fzf, brightnessctl, grim (+ slurp), fnott, libnotify-bin (notify-send), wlopm
 
-* extra: mpv, nsxiv, lf, img2sixel, chara, w3m, thunar
+* extra: mpv, nsxiv, lf, img2sixel, chara, w3m, pcmanfm-qt
 
 ### file structure
 
@@ -42,6 +42,7 @@ S: Shift key
 | M+S+m     | unmount         |
 | M+p       | screenshot      |
 | M+S+m     | scr. region     |
+| M+t       | temperature     |
 | M+s       | skip mpl track  |
 | M+S+s     | stop mpl        |
 | M+h       | snap left       |

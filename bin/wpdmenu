@@ -2,7 +2,7 @@
 
 cd $HOME/pix/fundal || exit 1
 
-image="$(find . -type f | wofi -d)"
+image="$(find . -type f | tofi --prompt-text 'wallpaper ')"
 
 [ -z "$image" ] && exit 1
 

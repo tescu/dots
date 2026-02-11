@@ -8,7 +8,7 @@
 [ -f "$file" ] || exit 1
 
 
-choose=$(cut -d ';' -f1 "$file" | wofi -d -i -L 10 | sed "s/\t.*//")
+choose=$(cut -d ';' -f1 "$file" | tofi | sed "s/\t.*//")
 
 [ -z "$choose" ] && exit
 

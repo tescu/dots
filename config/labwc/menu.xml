@@ -4,7 +4,7 @@
   <menu id="custom-apps" label="programe">
     <item label="firefox"><action name="Execute" command="firefox" /></item>
     <item label="terminal"><action name="Execute" command="foot" /></item>
-    <item label="fișiere"><action name="Execute" command="thunar" /></item>
+    <item label="fișiere"><action name="Execute" command="pcmanfm-qt" /></item>
     <separator />
     <item label="grsync"><action name="Execute" command="grsync" /></item>
     <item label="netsurf"><action name="Execute" command="netsurf-gtk" /></item>

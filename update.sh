@@ -9,7 +9,7 @@ updatecfg() {
 	cp -rv ~/.config/foot     ./config/
 	cp -rv ~/.config/lf       ./config/
 	cp -rv ~/.config/fnott    ./config/
-	cp -rv ~/.config/wofi     ./config/
+	cp -rv ~/.config/tofi     ./config/
 	cp -rv ~/.config/waybar ./config/
 	cp -v ~/.config/user-dirs.dirs ./config/
 

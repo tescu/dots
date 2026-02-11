@@ -44,9 +44,9 @@
     <keybind key="W-S-f">
 	    <action name="ToggleMaximize"/></keybind>
     <keybind key="W-d">
-	    <action name="Execute" command="wofi --show drun" /></keybind>
+	    <action name="Execute" command="tofi-drun" /></keybind>
     <keybind key="W-e">
-	    <action name="Execute" command="thunar" /></keybind>
+	    <action name="Execute" command="pcmanfm-qt" /></keybind>
     <keybind key="W-S-c">
 	    <action name="Close" /></keybind>
     <keybind key="W-S-r">
@@ -62,6 +62,8 @@
 	    <action name="Execute" command="foot ~/.local/bin/mounter"/></keybind>
     <keybind key="W-S-m">
 	    <action name="Execute" command="foot ~/.local/bin/unmounter"/></keybind>
+    <keybind key="W-t">
+	    <action name="Execute" command="foot ~/.local/bin/tempconvert"/></keybind>
     <keybind key="W-p">
 	    <action name="Execute" command="grim"/></keybind>
     <keybind key="W-S-p">

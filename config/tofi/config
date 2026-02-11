@@ -1,0 +1,117 @@
+# Default config for tofi
+# A complete reference of available options can be found in `man 5 tofi`.
+
+### Fonts
+	font = "Sans"
+	font-size = 12
+
+	# font-features = "smcp, c2sc" (all small caps)
+	# font-features = "liga 0" (disable ligatures)
+	font-features = ""
+	font-variations = ""
+	hint-font = true
+
+### Text theming
+	text-color = #EBDBB2
+
+	prompt-background = #28282800
+	prompt-background-padding = 0
+	prompt-background-corner-radius = 0
+
+	placeholder-color = #FFFFFFA8
+	placeholder-background = #28282800
+	placeholder-background-padding = 0
+	placeholder-background-corner-radius = 0
+
+	input-background = #28282800
+	input-background-padding = 0
+	input-background-corner-radius = 0
+
+	default-result-background = #28282800
+	default-result-background-padding = 0
+	default-result-background-corner-radius = 0
+
+	selection-color = #98971AFF
+	selection-background = #28282800
+	selection-background-padding = 0
+	selection-background-corner-radius = 0
+
+	selection-match-color = #28282800
+
+### Text cursor theme
+	# Supported values: bar, block, underscore
+	text-cursor-style = underscore
+
+	text-cursor-corner-radius = 0
+
+### Text layout
+	prompt-text = "exec "
+
+	prompt-padding = 0
+	placeholder-text = ""
+
+	num-results = 0
+	result-spacing = 0
+	horizontal = false
+	min-input-width = 0
+
+### Window theming
+	# Width and height of the window. Can be pixels or a percentage.
+	width = 45%
+	height = 35%
+
+	background-color = #1B1D1E
+
+	# borders
+	outline-width = 0
+	outline-color = #928374
+	border-width = 1
+	border-color = #928374
+
+	corner-radius = 0
+	padding-bottom = 4
+	padding-left = 8
+	padding-right = 8
+
+	clip-to-padding = true
+	scale = true
+
+### Window positioning
+	output = ""
+
+	# top-left, top, top-right, right, bottom-right,
+	# bottom, bottom-left, left, center.
+	anchor = center
+
+	exclusive-zone = -1
+	# offset
+	margin-top = 0
+	margin-bottom = 0
+	margin-left = 0
+	margin-right = 0
+
+### Behaviour
+	hide-cursor = true
+
+	text-cursor = false
+	history = true
+
+	# history-file = /path/to/histfile
+
+	fuzzy-match = false
+	require-match = false
+
+	auto-accept-single = false
+
+	hide-input = false
+
+	hidden-character = "*"
+
+	drun-launch = false
+
+	late-keyboard-init = false
+	multi-instance = false
+	ascii-input = false
+
+### Inclusion
+	# include = /path/to/config
