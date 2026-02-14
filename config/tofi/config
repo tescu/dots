@@ -107,7 +107,7 @@
 
 	hidden-character = "*"
 
-	drun-launch = false
+	drun-launch = true
 
 	late-keyboard-init = false
 	multi-instance = false

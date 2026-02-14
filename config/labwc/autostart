@@ -8,9 +8,6 @@ waybar --log-level off &
 # notifications
 fnott >/dev/null 2>&1 &
 
-# hangul
-fcitx5 &
-
 # Lock screen after 5 minutes; turn off display after another 5 minutes.
 #swayidle -w \
 #	timeout 300 'swaylock -f -c 000000' \

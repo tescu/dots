@@ -1,7 +1,7 @@
 ## ~/.config/labwc/environment file
 
 ## For further details, see xkeyboard-config(7)
-XKB_DEFAULT_LAYOUT=ro
+XKB_DEFAULT_LAYOUT=ro,ru(phonetic)
 XKB_DEFAULT_OPTIONS=grp:win_space_toggle
 
 ## Firefox (>= v121) enables Wayland by default, but we include this note here
