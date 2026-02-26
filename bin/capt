@@ -1,0 +1,4 @@
+#!/bin/sh
+# TODO: More options, filenames
+# TODO: Interactive menu OR keybind options
+scrot -s "$(slop)" && notify-send 'Captură realizată'

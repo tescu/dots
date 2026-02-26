@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cd $HOME/pix/fundal || exit 1
+
+image="$(find . -type f | dmenu -p 'wallpaper:')"
+
+[ -z "$image" ] && exit 1
+
+hsetroot -fill "$image" && notify-send "$image" "Fundal temporar setat."

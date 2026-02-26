@@ -1,0 +1,9 @@
+#!/bin/sh
+
+image="$(find $HOME/pix/fundal -type f | nsxiv -ito | tail -n 1)"
+
+[ -z "$image" ] && exit 1
+
+cp "$image" ~/.local/etc/wallpaper.png || exit 1
+
+hsetroot -fill "$image" && notify-send "Fundal setat." "$image"
