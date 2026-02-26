@@ -7,9 +7,9 @@ Configuration files and other utilities I have written for convenience.
 
 ### dependencies
 
-* main: openbox, tint2, hsetroot, dmenu, fzf, brightnessctl, scrot (+ slop), fnott, libnotify-bin (notify-send), dunst
+* main: openbox, tint2, hsetroot, dmenu, fzf, brightnessctl, maim, libnotify-bin (notify-send), dunst, pasystray, pactl
 
-* extra: mpv, nsxiv, lf, chafa, w3m, thunar
+* extra: mpv, nsxiv, lf, chafa, w3m, pcmanfm-qt
 
 ### file structure
 
@@ -28,27 +28,25 @@ S: Shift key
 | M+S+c     | close window    |
 | M+S+r     | restart         |
 | M+d       | program launcher|
-| M+1..5    | go to desktop   |
-| M+S+1..5  | send to desktop |
-| M+a       | labwc menu      |
+| M+1..4    | go to desktop   |
+| M+S+1..4  | send to desktop |
+| M+w       | openbox menu    |
 | M+e       | file manager    |
-| M+f       | fullscreen      |
-| M+S+f     | maximize        |
+| M+f       | maximize        |
+| M+S+f     | unmaximize      |
 | M+x       | no decorations  |
 | M+o       | change wall.    |
-| M+w       | emoji menu      |
-| M+S+w     | lenny faces     |
+| M+u       | emoji menu      |
+| M+S+u     | lenny faces     |
 | M+m       | mount drives    |
 | M+S+m     | unmount         |
 | M+p       | screenshot      |
-| M+S+m     | scr. region     |
+| M+S+p     | scr. region     |
 | M+t       | temperature     |
 | M+s       | skip mpl track  |
 | M+S+s     | stop mpl        |
-| M+h       | snap left       |
-| M+j       | snap down       |
-| M+k       | snap up         |
-| M+l       | snap right      |
+| M+j       | snap left       |
+| M+k       | snap right      |
 
 ### scripts
 
