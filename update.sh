@@ -2,6 +2,8 @@
 shopt -s globstar
 
 updatecfg() {
+	rm -v ./bin/*
+	rm -v ./etc/*
 	cp -v ~/.local/bin/* ./bin/
 	cp -v ~/.local/etc/* ./etc/ 
 	

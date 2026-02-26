@@ -1,2 +1,0 @@
-#!/bin/sh
-killall waybar && setsid -f waybar && notify-send 'Waybar' 'Panou repornit'
