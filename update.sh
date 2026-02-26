@@ -9,7 +9,7 @@ updatecfg() {
 	
 	cp -rv ~/.config/openbox     ./config/
 	cp -rv ~/.config/lf       ./config/
-	cp -rv ~/.config/tint2    ./config/
+	cp -rv ~/.config/tint2/tint2rc    ./config/tint2/
 	#cp -rv ~/.config/dunst    ./config/
 	cp -v ~/.config/user-dirs.dirs ./config/
 

@@ -7,9 +7,9 @@ Configuration files and other utilities I have written for convenience.
 
 ### dependencies
 
-* main: openbox, tint2, hsetroot, dmenu, fzf, brightnessctl, maim, libnotify-bin (notify-send), dunst, pasystray, pactl
+* main: openbox, tint2, qterminal, hsetroot, dmenu, fzf, brightnessctl, maim, libnotify-bin (notify-send), dunst, pasystray, pactl
 
-* extra: mpv, nsxiv, lf, chafa, w3m, pcmanfm-qt
+* extra: mpv, nsxiv, lf, chafa, w3m, pcmanfm-qt, jtmpfs
 
 ### file structure
 
@@ -41,10 +41,7 @@ S: Shift key
 | M+m       | mount drives    |
 | M+S+m     | unmount         |
 | M+p       | screenshot      |
-| M+S+p     | scr. region     |
-| M+t       | temperature     |
-| M+s       | skip mpl track  |
-| M+S+s     | stop mpl        |
+| M+S+p     | scr. window     |
 | M+j       | snap left       |
 | M+k       | snap right      |
 

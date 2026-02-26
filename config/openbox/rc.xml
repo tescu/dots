@@ -193,9 +193,9 @@
       </action>
     </keybind>
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
-    <keybind key="W-Print">
+    <keybind key="W-S-p">
       <action name="Execute">
-        <command>main -s</command>
+        <command>maim -s</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
@@ -275,10 +275,25 @@
         <command>qterminal</command>
       </action>
     </keybind>
-    <!-- Launch scrot when Print is pressed -->
+    <keybind key="W-u">
+      <action name="Execute">
+        <command>sh -c "~/.local/bin/pickerm"</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-u">
+      <action name="Execute">
+        <command>sh -c "~/.local/bin/pickerm lenny"</command>
+      </action>
+    </keybind>
+    <keybind key="W-o">
+      <action name="Execute">
+        <command>sh -c "~/.local/bin/wp_gallery"</command>
+      </action>
+    </keybind>
+    <!-- Launch maim when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>maim</command>
       </action>
     </keybind>
   </keyboard>

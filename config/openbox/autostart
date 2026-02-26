@@ -6,3 +6,7 @@ hsetroot -fill ~/.local/etc/wallpaper.png &
 
 # Panel
 tint2 &
+
+# Applets
+nm-applet &
+pasystray &
