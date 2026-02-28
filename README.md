@@ -7,7 +7,7 @@ Configuration files and other utilities I have written for convenience.
 
 ### dependencies
 
-* main: openbox, tint2, qterminal, hsetroot, dmenu, fzf, brightnessctl, maim, libnotify-bin (notify-send), dunst, pasystray, pactl
+* main: openbox, tint2, qterminal, hsetroot, rofi, dmenu, fzf, brightnessctl, maim, libnotify-bin (notify-send), dunst, pasystray, pactl
 
 * extra: mpv, nsxiv, lf, chafa, w3m, pcmanfm-qt, jtmpfs
 
