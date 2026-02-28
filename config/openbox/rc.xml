@@ -290,6 +290,16 @@
         <command>sh -c "~/.local/bin/wp_gallery"</command>
       </action>
     </keybind>
+    <keybind key="W-s">
+      <action name="Execute">
+        <command>sh -c "~/.local/bin/mplc skip"</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-s">
+      <action name="Execute">
+        <command>sh -c "~/.local/bin/mplc stop"</command>
+      </action>
+    </keybind>
     <!-- Launch maim when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">

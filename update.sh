@@ -6,10 +6,13 @@ updatecfg() {
 	rm -v ./etc/*
 	cp -v ~/.local/bin/* ./bin/
 	cp -v ~/.local/etc/* ./etc/ 
+
+	cp -rv ~/.local/share/themes ./share/
 	
 	cp -rv ~/.config/openbox     ./config/
 	cp -rv ~/.config/lf       ./config/
 	cp -rv ~/.config/tint2/tint2rc    ./config/tint2/
+	cp -rv ~/.config/qterminal.org/ ./config/
 	#cp -rv ~/.config/dunst    ./config/
 	cp -v ~/.config/user-dirs.dirs ./config/
 
@@ -22,6 +25,7 @@ installcfg() {
 	read -rp "WARNING! This may overwrite important files! Continue? (y/n)"
 	cp -rv ./bin ~/.local/
 	cp -rv ./etc ~/.local/
+	cp -rv ./share/* ~/.local/share/
 	
 	cp -rv ./config/* ~/.config/
 
