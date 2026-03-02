@@ -1,4 +1,13 @@
 #!/bin/sh
 # TODO: More options, filenames
 # TODO: Interactive menu OR keybind options
-scrot -s "$(slop)" && notify-send 'Captură realizată'
+
+name="$(date '+%m-%d-%y_%H-%M-%S' | dmenu -i -l 2 -p 'screenshot name: ')"
+
+[ -z "$name" ] && exit 1
+
+if [ -z "$1" ]; then
+	maim "$name.png" && notify-send 'Captură realizată' "$name.png"
+else
+	maim -s "$name.png" && notify-send 'Captură realizată' "$name.png"
+fi
